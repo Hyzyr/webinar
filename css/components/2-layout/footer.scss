@@ -1,6 +1,25 @@
 /// section footer
 .footer {
   margin-top: auto;
+  background: $black-2;
+  padding: 0.4rem 0;
+
   &__inner {
+    color: $white;
+    text-align: center;
+    font-size: 16px;
+    p {
+      color: inherit;
+      text-align: inherit;
+      font-size: inherit;
+    }
+  }
+}
+
+@mixin footer-460 {
+  .footer {
+    &__inner {
+      font-size: 14px;
+    }
   }
 }

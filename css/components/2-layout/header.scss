@@ -31,3 +31,12 @@
     }
   }
 }
+@mixin header-768 {
+  .header {
+    &__inner {
+      .logo {
+        font-size: 12px;
+      }
+    }
+  }
+}
