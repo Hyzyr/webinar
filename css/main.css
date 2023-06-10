@@ -1,36 +1,6 @@
 @import "./animate.css";
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-@-webkit-keyframes zoomInCenter {
-  from {
-    opacity: 0;
-    -webkit-transform: translate(-50%, -50%) scale(0.9);
-            transform: translate(-50%, -50%) scale(0.9);
-  }
-  30% {
-    opacity: 1;
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
-  }
-}
-@keyframes zoomInCenter {
-  from {
-    opacity: 0;
-    -webkit-transform: translate(-50%, -50%) scale(0.9);
-            transform: translate(-50%, -50%) scale(0.9);
-  }
-  30% {
-    opacity: 1;
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
-  }
-}
 @-webkit-keyframes zoomIn {
   from {
     opacity: 0;
@@ -59,60 +29,6 @@
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
-  }
-}
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(10%);
-            transform: translateY(10%);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(10%);
-            transform: translateY(10%);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-@-webkit-keyframes sticky {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(-110%);
-            transform: translateY(-110%);
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-@keyframes sticky {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(-110%);
-            transform: translateY(-110%);
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
   }
 }
 @-webkit-keyframes animInUp {
