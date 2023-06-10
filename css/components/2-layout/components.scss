@@ -3,6 +3,9 @@
   flex-direction: column;
   overflow: hidden;
   min-height: 100%;
+  &--full {
+    height: 100%;
+  }
 }
 .autoContainer {
   max-width: 1200px;

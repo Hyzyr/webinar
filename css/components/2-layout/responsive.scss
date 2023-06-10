@@ -33,6 +33,9 @@
   @include thankYou-1025;
 }
 
+@media (min-width: 940px) {
+  @include thankYou-min-940;
+}
 @media (max-width: 940px) {
   .autoContainer {
     padding: 0 25px;
