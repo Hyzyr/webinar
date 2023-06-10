@@ -71,7 +71,19 @@
   ._hideMob {
     display: none;
   }
+
 }
 @media (max-width: 460px) {
   @include footer-460;
+  @include thankYou-460;
+}
+@media (max-width: 390px) {
+  @include thankYou-390;
+}
+@media (max-height: 390px) {
+  .main{
+    &--full{
+      height: auto;
+    }
+  }
 }

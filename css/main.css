@@ -497,6 +497,7 @@ svg {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 40px;
+  position: relative;
 }
 .thankYou__bg {
   position: absolute;
@@ -518,7 +519,7 @@ svg {
   font-size: 6.1rem;
   font-weight: 400;
   line-height: 1;
-  padding-left: 20px;
+  padding-left: 10vh;
   -webkit-transform: rotate(-10deg);
           transform: rotate(-10deg);
   margin-top: -40px;
@@ -772,9 +773,11 @@ body {
 body {
     font-size: 28px;
   }
+
   .hero__inner {
     max-height: 800px;
   }
+
   .info__inner-image {
     right: 50%;
   }
@@ -792,6 +795,7 @@ body {
 body {
     font-size: 24px;
   }
+
   .autoContainer {
     padding: 0 40px;
   }
@@ -801,18 +805,22 @@ body {
 body {
     font-size: 22px;
   }
+
   .autoContainer {
     padding: 0 30px;
   }
+
   .header__inner .logo {
     font-size: 16px;
   }
+
   .hero__inner {
     max-height: unset;
     height: unset;
     min-height: calc(90vh - 90px - 4rem);
     min-height: calc(100dvh - 90px - 4rem);
   }
+
   .thankYou {
     padding: 40px 0 35px;
   }
@@ -861,12 +869,15 @@ body {
 body {
     font-size: 20px;
   }
+
   .autoContainer {
     padding: 0 15px;
   }
+
   .header__inner .logo {
     font-size: 12px;
   }
+
   .hero__inner-content {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -896,6 +907,7 @@ body {
     -webkit-transform: translate(50%);
             transform: translate(50%);
   }
+
   .info {
     position: relative;
     background: transparent;
@@ -935,10 +947,12 @@ body {
   .info__inner-content p {
     text-align: left;
   }
+
   .details__inner {
     min-height: 450px;
     padding: 1rem 0 25% 0;
   }
+
   .banner__inner-image {
     width: 100%;
     margin-top: -30%;
@@ -946,6 +960,7 @@ body {
   .banner__inner-logo {
     display: none;
   }
+
   .thankYou__inner-image {
     width: 34%;
   }
@@ -983,7 +998,7 @@ body {
     width: 100%;
   }
   .thankYou p span {
-    padding-left: 180px;
+    padding-left: 140px;
     display: block;
   }
 }
@@ -995,5 +1010,31 @@ body {
 @media (max-width: 460px) {
   .footer__inner {
     font-size: 14px;
+  }
+
+  .thankYou__inner-image {
+    width: 105px;
+  }
+  .thankYou p span {
+    padding-left: 70px;
+    display: block;
+  }
+}
+@media (max-width: 390px) {
+  .thankYou__inner-image {
+    width: 90px;
+  }
+  .thankYou p span {
+    padding-left: 80px;
+    display: block;
+  }
+  .thankYou p span strong {
+    font-size: 0.8em;
+    line-height: 0.7em;
+  }
+}
+@media (max-height: 390px) {
+  .main--full {
+    height: auto;
   }
 }
