@@ -128,15 +128,12 @@
 @mixin thankYou-660 {
   .thankYou {
     &__inner {
-      &-image {
-        width: 175px;
-      }
+      margin-bottom: 150px;
       &-box {
         width: 100%;
         gap: 20px;
       }
     }
-
     h1 {
       padding-left: 0;
       text-align: center;
@@ -157,7 +154,6 @@
   .thankYou {
     &__inner {
       &-image {
-        width: 105px;
       }
     }
     p {
@@ -172,7 +168,6 @@
   .thankYou {
     &__inner {
       &-image {
-        width: 90px;
       }
     }
     p {
