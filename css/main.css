@@ -783,10 +783,6 @@ body {
   .autoContainer {
     padding: 0 40px;
   }
-
-  html {
-    font-size: 28px;
-  }
 }
 @media (max-width: 1025px) {
   html,
@@ -962,10 +958,6 @@ body {
   }
 }
 @media (max-width: 580px) {
-  html {
-    font-size: 17px;
-  }
-
   ._hideMob {
     display: none;
   }
